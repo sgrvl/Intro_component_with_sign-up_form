@@ -118,6 +118,10 @@ input:first-child {
 	margin: 0;
 }
 
+input:focus {
+	border: 1px solid hsla(249, 10%, 26%, 0.75);
+}
+
 .invalid::placeholder {
 	color: hsl(0, 100%, 74%);
 }
